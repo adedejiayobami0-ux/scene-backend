@@ -1,0 +1,29 @@
+{
+  "name": "scene-server",
+  "version": "1.0.0",
+  "description": "Scene - Community Experience OS Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["events", "community", "payments"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "better-sqlite3": "^9.2.2",
+    "stripe": "^14.10.0",
+    "multer": "^1.4.5-lts.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "@anthropic-ai/sdk": "^0.12.0",
+    "uuid": "^9.0.1",
+    "sharp": "^0.33.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
